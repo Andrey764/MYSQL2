@@ -26,3 +26,30 @@ function register($name, $pass, $email)
     }
     return true;
 }
+
+// if (isset($_POST['login'], $_POST['password'], $_POST['confPassword'], $_POST['email']))
+//     if ($_POST['password'] == $_POST['confPassword'])
+//         register($_POST['login'], $_POST['password'], $_POST['email']);
+//     else
+//         echo "<h3>password is not confirmed !!!</h3>";
+// 
+?>
+<!--  <form action="index.php?page=Registration" method="POST">
+     <div class="mb-3">
+         <label for="formGroupExampleInput" class="form-label">Login</label>
+         <input type="text" class="form-control" id="formGroupExampleInput" name="login">
+     </div>
+     <div class="mb-3">
+         <label for="formGroupExampleInput2" class="form-label">Password</label>
+         <input type="password" class="form-control" id="formGroupExampleInput2" name="password">
+     </div>
+     <div class="mb-3">
+         <label for="formGroupExampleInput" class="form-label">Confirm Password</label>
+         <input type="password" class="form-control" id="formGroupExampleInput" name="confPassword">
+     </div>
+     <div class="mb-3">
+         <label for="formGroupExampleInput2" class="form-label">Email address:</label>
+         <input type="email" class="form-control" id="formGroupExampleInput2" name="email">
+     </div>
+     <input type="submit" class="btn btn-primary" value="Sig Up">
+ </form> -->
